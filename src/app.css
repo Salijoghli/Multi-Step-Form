@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #FF6B6B, #FFD166, #06D6A0);
+  }
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+  form {
+    margin-top: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  label{
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  input,
+  textarea,
+  select {
+    max-width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .footer button {
+    padding: 8px 20px;
+  }
+  
+  .back-button {
+    margin-right: 10px;
+    background-color: #e0e0e0;
+    color: #000000;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #c2c2c2;
+  }
+  
+  .next-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+  
